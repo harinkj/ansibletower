@@ -3,4 +3,4 @@
   remote_user: ec2-user
   tasks:
   - name: testing ubuntu versio
-    shell: lsb_release >> /tmp/ubuntuversion.txt
+    shell: uname -a >> /tmp/ubuntuversion.txt
